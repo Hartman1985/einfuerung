@@ -53,9 +53,12 @@ struct tesla_t{
             case '2':                   isValid = true;             break;
             case '3': if(model == E)    isValid = true;             break; 
                 
-            default:  std::cout << "Ungültige Eingabe!!" std::endl; break;
+            default:  std::cout << "Ungültige Eingabe!!" << std::endl; break;
             if(!isValid) continue;
             break;
+            }
         }
     }
+        
+    
 };
